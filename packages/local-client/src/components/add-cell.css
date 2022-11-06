@@ -1,0 +1,31 @@
+.add-cell {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 10;
+}
+.add-cell:before,
+.add-cell:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.add-cell:before {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.add-cell:after {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.add-cell .add-buttons {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.add-cell .add-buttons button {
+  margin: 10px;
+}

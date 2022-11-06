@@ -1,0 +1,7 @@
+.notejsimg {
+  display: flex;
+  align-items: center;
+  max-height: 150px;
+  margin: 0 auto;
+  padding: 20px;
+}

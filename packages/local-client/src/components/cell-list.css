@@ -1,0 +1,4 @@
+.react-draggable-transparent-selection .cell-list {
+  /* when it drags, just add an extra viewport to the bottom */
+  margin-bottom: 50vh;
+}

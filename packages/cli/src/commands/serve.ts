@@ -1,6 +1,6 @@
 import { Command } from "commander";
 // @ts-ignore
-import { serve } from "local-api";
+import { serve } from "@himathsprojects/local-api";
 import path from "path";
 
 interface LocalApiError {
