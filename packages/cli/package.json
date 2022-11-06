@@ -20,8 +20,8 @@
     "@himathsprojects/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
     "@himathsprojects/local-api": "^1.0.0",
+    "@types/node": "^18.11.9",
     "commander": "^9.4.1",
     "esbuild": "0.8.26",
     "tsc": "^2.0.4",
